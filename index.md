@@ -17,7 +17,7 @@ profile:
 
 ## About Me
 
-Hi! I am a student research aide in the Cosmological Physics and Advanced Computing group at [Argonne National Laboratory (ANL)](https://www.anl.gov), where I use cosmological simulations to study structure formation in the universe. I am also a member of [LSST-DESC](https://lsst-desc.org), where I help validate mock galaxy catalogs.
+I am a student research aide in the Cosmological Physics and Advanced Computing group at [Argonne National Laboratory (ANL)](https://www.anl.gov), where I use cosmological simulations to study structure formation in the universe. I am also a member of [LSST-DESC](https://lsst-desc.org), where I help validate mock galaxy catalogs.
 
 I recently graduated from the University of Chicago with a B.A. in physics and in mathematics. While there, I also studied black holes and quantum information.
 
