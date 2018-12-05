@@ -78,7 +78,7 @@
 	    <div class="profile {{page.profile.align}}">
 	    	{% if page.profile.image %}
 			<div class="pic-container">
-				<img src="{{page.profile.image | prepend:'/img/' | prepend: site.baseurl | prepend: site.url}}">
+				<img src="{{page.profile.image | prepend:'/img/' | prepend: site.url}}">
 	    		{%if page.profile.description%}
 	    			<div class="description">
 	    			{{page.profile.description}}
