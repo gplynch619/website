@@ -3,24 +3,10 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+Feel free to contact me either by one of the emails listed below, or by messaging me on Github. If you are a member of LSST-DESC, you can reach me on Slack as well.
 
-* Phone: [+91-123123](tel:+91-123123)
 
----
+* Email: [gabriel.p.lynch@gmail.com](mailto:gabriel.p.lynch@gmail.com)
 
-## Mailing Address
+* ANL email: [lynchg@anl.gov](mailto:lynchg@anl.gov)
 
-> 221B, Baker Street
->
-> London
->
-> United Kingdom
-
----
-
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)

@@ -31,6 +31,7 @@
     {% if site.twitter_username %}
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}
+    
     <!-- Facebook Open Graph -->
     <meta name="og:description" content="{{ desc }}">
     <meta name="og:title" content="{{ site.title }}">
@@ -59,7 +60,7 @@
             <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
-                    {% if x.name == "Resume" %}
+                    {% if x.name == "CV" %}
                         <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
                     {% else %}
                         <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}</a>
@@ -73,7 +74,21 @@
         </div>
         <div style="clear:both"></div>
         <hr>
-        {% if page.is_contact == true %}
+	{% if page.profile %}
+	    <div class="profile {{page.profile.align}}">
+	    	{% if page.profile.image %}
+			<div class="pic-container">
+				<img src="{{page.profile.image | prepend:'/img/' | prepend: site.baseurl | prepend: site.url}}">
+	    		{%if page.profile.description%}
+	    			<div class="description">
+	    			{{page.profile.description}}
+	    			</div>
+	    		{%endif%}
+			</div>
+		{%endif%}
+	    </div>
+	{% endif %}
+	{% if page.is_contact == true %}
             <div class="container content contact">
         {% else %}
             <div class="container content">
@@ -82,7 +97,7 @@
 				{% if site.footer == true %}
 					<hr />
 					<p style="text-align: center; margin-bottom: 10px">
-					<a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+					Powered by <a href="https://jekyllrb.com" style="color: black"><small>Jekyll</small></a>. Based on <a href="https://github.io/ankitsultana/researcher" style="color: black"><small>Researcher</small></a>.
 					</p>
 				{% endif %}
             </div>

@@ -1,45 +1,33 @@
 ---
 layout: default
+
+profile:
+    align: left
+    image: millie.jpg
+    description:
+      <p>Quick Links 
+         <br/> 
+         <a href="https://press3.mcs.anl.gov/cpac/">ANL-CPAC</a>
+         <br/>
+         <a href="https://www.alcf.anl.gov">ANL-ALCF</a>
+         <br/>
+         <a href="https://github.com/gplynch619">Github</a>
+      </p>
 ---
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+Hi! I am a student research aide in the Cosmological Physics and Advanced Computing group at [Argonne National Laboratory (ANL)](https://www.anl.gov), where I use cosmological simulations to study structure formation in the universe. I am also a member of [LSST-DESC](https://lsst-desc.org), where I help validate mock galaxy catalogs.
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+I recently graduated from the University of Chicago with a B.A. in physics and in mathematics. While there, I also studied black holes and quantum information.
 
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+## Research Interests
+This page covers my general interests and motivations. For the details of my current research, please see [Projects](projects.md) tab above.
 
-## Research Interest
+I am interested mainly in theoretical and computational cosmology, and especially using the wealth of precision data available to cosmologists in new and creative ways. As new experiments and surveys are completed, the quality and quantity of this data will only increase. In order to fully leverage the peta- (and soon to be exa-) scales of data up for grabs, new computational methods are required. This involves both improving our existing analyses, and thinking of new ways we can use the data to constrain our models.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+* **Formation of structure** in the universe, and how we can use the structure that we see as a probe of new or otherwise interesting physics. For example, one well known tension within the standard model of cosmology is the ["small scale / substructure crisis"](https://arxiv.org/abs/1707.04256). Is the discrepancy between predicted and observed structure  accounted for by fully incorporating baryonic physics in our models, or is it telling us something about dark matter or the physics of the early universe? Perhaps dark matter is an ultra light scalar field, which naturally supresses small scale structure. Or, perhaps the small scale fluctuations that seed structure at this scale are supressed in the early universe. This is an area where detailed cosmological n-body simulations are particularly useful, and as they improve we will have a better picture of exactly what our theories predict.
 
-## Publications
+* **CMB physics**, especially as a probe of the physics of the very early universe. The CMB is one of the clearest probes we have of the early universe, and with the [CMB-S4](https://cmb-s4.org) project underway we can expect improved data in the near future. How can cross-correlate this data with other sources of information in order to more tightly constrain our models? Can we eliminate systematics enough to detect signatures of inflation?
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
-
-## Typography
-
-This is a [link](http://google.com). Something *italics* and something **bold**.
-
-Here is a table
-
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
-
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+* **Quantum technology** applied to cosmological problems. One example of this is the potential to use precise atomic clocks as a quantum sensor to detect ultra light dark matter. By beating two clocks against each other, it may be possible to detect when a clump of dark matter passes through one of the detectors. Another example the usage of quantum computers to simulate the non-linear dynamics of inflation. I am particularly interested in the feasibility of *digital* (as opposed to analog) quantum simulations of inflation, and whether improved predictions for the curvature power spectrum obtained from these simulations, combined with observations of the CMB, can be used to constrain the shape of the inflationary potential.

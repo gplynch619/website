@@ -11,7 +11,7 @@ html {
 }
 body {
     margin: 0;
-    font-family: "Inconsolata";
+    font-family: "Source Code Pro";
     height: 100%;
 }
 a {
@@ -70,6 +70,45 @@ hr {
 }
 .wrapper {
     min-height: 100%;
+}
+
+.left{
+	float: left;
+	overflow: auto;
+}
+
+.left img{
+	float: right;
+}
+
+.right{
+	float: right;
+}
+
+.profile {
+	 padding: 15px 20px 0px 20px;
+	 width: 25%;
+	 position: relative;
+ }
+
+.pic-container{
+	max-width:50%;
+	display: table;
+	float: right;
+	position: relative;
+}
+
+.pic-container img{
+	box-shadow: 0 0 5px #828282;
+	width: 100%;
+	position: relative;
+}
+
+.description{
+	font-family: 'Source Code Pro';
+	padding: 5px 0px 0px 0px;
+	display: table-caption;
+	caption-side: bottom;
 }
 
 /* Mobile */
