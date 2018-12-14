@@ -6,6 +6,8 @@ markdown: kramdown
 
 tracking_id: #
 
+favicon: "/img/favicon.ico"
+
 footer: yes
 
 sass:
