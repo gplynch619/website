@@ -9,4 +9,3 @@ Feel free to contact me either by one of the emails listed below, or by messagin
 * Email: [gabriel.p.lynch@gmail.com](mailto:gabriel.p.lynch@gmail.com)
 
 * ANL email: [lynchg@anl.gov](mailto:lynchg@anl.gov)
-
